@@ -1,0 +1,25 @@
+title: Yuval Bubnovsky
+email: yuval.bubnov@gmail.com@example.com
+description: "Will be updated later" # TODO: update
+baseurl: "" # leave this empty for GitHub Pages
+url: "https://yuvalbubnovsky.github.io"
+# twitter_username: your_twitter_handle
+github_username: YuvalBubnovsky
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
