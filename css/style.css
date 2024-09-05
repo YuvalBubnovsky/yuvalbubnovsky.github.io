@@ -1,42 +1,45 @@
-/* css/style.css */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 2rem;
+  color: #fff;
+  text-decoration: none;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: cetner;
+  align-items: center;
+  height: calc(100vh - 60px);
+  text-align: center;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
 }
